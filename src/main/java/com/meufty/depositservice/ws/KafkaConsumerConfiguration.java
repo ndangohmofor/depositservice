@@ -1,5 +1,7 @@
 package com.meufty.depositservice.ws;
 
+import com.meufty.ws.core.error.NotRetryableException;
+import com.meufty.ws.core.error.RetryableException;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Autowired;
